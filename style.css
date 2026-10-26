@@ -109,3 +109,5 @@ footer a { color: var(--ink-2); }
 .card .b9 { --b: #f2c230; background: linear-gradient(180deg, #f6f4ee 0 24%, #f2c230 24% 76%, #f6f4ee 76%); }
 .hero a.on-felt { color: #fff; }
 .note { margin-top: 10px; font-size: .92rem; }
+.card .b10 { --b: #2160c4; background: linear-gradient(180deg, #f6f4ee 0 24%, #2160c4 24% 76%, #f6f4ee 76%); }
+.card .b10 span { font-size: .62rem; }
