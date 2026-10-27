@@ -17,6 +17,7 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== location.origin || url.pathname.startsWith('/fargo-api/')) return;
+  if (url.searchParams.has('check')) return;   // the app's update check always goes to the network
   if (req.mode === 'navigate') {
     e.respondWith(fetch(req).then(res => { const copy = res.clone(); caches.open(CACHE).then(c => c.put('./', copy)); return res; })
       .catch(() => caches.match('./')));
