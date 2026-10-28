@@ -111,3 +111,5 @@ footer a { color: var(--ink-2); }
 .note { margin-top: 10px; font-size: .92rem; }
 .card .b10 { --b: #2160c4; background: linear-gradient(180deg, #f6f4ee 0 24%, #2160c4 24% 76%, #f6f4ee 76%); }
 .card .b10 span { font-size: .62rem; }
+.card .b11 { --b: #d23a2f; background: linear-gradient(180deg, #f6f4ee 0 24%, #d23a2f 24% 76%, #f6f4ee 76%); }
+.card .b11 span { font-size: .62rem; }
