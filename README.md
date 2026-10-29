@@ -6,7 +6,7 @@ The public website for Electro-Coach, a pool practice coach: **https://lvandrews
 - `app/`: the web version of the app (iPhone and computer)
 - `download/Electro-Coach.html`: the single-file version for offline use on a computer
 - **Releases**: the Android app. Download the newest `electro-coach.apk` from the latest release; the app finds new releases here itself.
-- **Issues**: feedback, problem reports and drill requests, sent from the app's Feedback page.
+- Feedback, problem reports and drill requests go by email to feedback@electro-coach.com (the app's Feedback page opens it). Anything else: hello@electro-coach.com.
 
 The app's source code isn't public.
 
