@@ -113,3 +113,7 @@ footer a { color: var(--ink-2); }
 .card .b10 span { font-size: .62rem; }
 .card .b11 { --b: #d23a2f; background: linear-gradient(180deg, #f6f4ee 0 24%, #d23a2f 24% 76%, #f6f4ee 76%); }
 .card .b11 span { font-size: .62rem; }
+
+/* Shown only on the old address (lvandrews.github.io) while the site moves to electro-coach.com */
+.moved { background: var(--pearl); color: #1b1b1b; padding: 10px 0; font-size: .95rem; border-bottom: 2px solid var(--rail-edge); }
+.moved a { color: inherit; }

@@ -1,6 +1,6 @@
 # Electro-Coach website
 
-The public website for Electro-Coach, a pool practice coach: **https://lvandrews.github.io/Electro-Coach/**
+The public website for Electro-Coach, a pool practice coach: **https://electro-coach.com/**
 
 - `index.html`, `privacy.html`, `terms.html`, `style.css`: the site
 - `app/`: the web version of the app (iPhone and computer)
